@@ -259,7 +259,7 @@ windowTab.Toggle({Text = "Full Auto Farm | Infernasu Quest", Callback = function
                                 end
                             )
                         elseif string.find(plr.PlayerGui.HUD.MainFrame.Quests.List["Hueco Mundo Hunt"].Frame.Objective.Text, "Kill 0 Vasto Lorde") then
-                            if not string.find(plr.PlayerGui.HUD.MainFrame.Quests.List["Hueco Mundo Hunt"].Frame.Objective.Text, "Kill 0 Adjucha's") then
+                            if not string.find(plr.PlayerGui.HUD.MainFrame.Quests.List["Hueco Mundo Hunt"].Frame.Objective.Text, "Kill 0 Adjucha") then
                                 pcall(
                                     function()
                                         if getgenv().selectedMethod == "Behind" then
@@ -274,8 +274,8 @@ windowTab.Toggle({Text = "Full Auto Farm | Infernasu Quest", Callback = function
                                         end
                                     end
                                 )
-                            elseif string.find(plr.PlayerGui.HUD.MainFrame.Quests.List["Hueco Mundo Hunt"].Frame.Objective.Text, "Kill 0 Adjucha's") then
-                                if not string.find(plr.PlayerGui.HUD.MainFrame.Quests.List["Hueco Mundo Hunt"].Frame.Objective.Text, "Kill 0 Enhanced Arrancar's") then
+                            elseif string.find(plr.PlayerGui.HUD.MainFrame.Quests.List["Hueco Mundo Hunt"].Frame.Objective.Text, "Kill 0 Adjucha") then
+                                if not string.find(plr.PlayerGui.HUD.MainFrame.Quests.List["Hueco Mundo Hunt"].Frame.Objective.Text, "Kill 0 Enhanced Arrancar") then
                                     pcall(
                                         function()
                                             if getgenv().selectedMethod == "Behind" then
